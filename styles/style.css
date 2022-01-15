@@ -13,7 +13,7 @@ body{
     margin: 0 auto;
 }
 .logo h2{
-    margin-top: 60px;
+    margin: 60px auto 50px;
     color: #3a3a3a;
 }
 
@@ -61,7 +61,7 @@ body{
 
 #main-camera{
     margin-left: 300px;
-    width: 440px; 
+    width: 475px; 
 }
 .top-container:hover .top-images img{
     transform: scale(1.15);
@@ -198,7 +198,6 @@ footer p{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        height: auto;
     }
     .half-width{
         width: 100%;
@@ -232,7 +231,6 @@ footer p{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        height: auto;
     }
     .half-width{
         width: 100%;
@@ -251,8 +249,8 @@ footer p{
     }
 
     #main-camera{
-        margin: 50px 20% 0;
-        width: 202px;
+        margin: 50px 10% 0;
+        width: 257px;
     }
     hr{
         display: none;
