@@ -1,0 +1,78 @@
+/* common styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* nav bar */
+
+.nav-container{
+    width: 85%;
+    margin: 0 auto;
+}
+.logo h2{
+    margin-top: 60px;
+    color: #3a3a3a;
+}
+
+/* top banner styles */
+
+.top-container{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+.half-width{
+    width: 50%;
+}
+.title-texts{
+    margin-top: 145px;
+}
+.title-texts h1{
+    font-size: 52px;
+    line-height: 70px;
+    margin: 0;
+    color: #3a3a3a;
+}
+.title-texts p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3a3a3a;
+    margin: 0;
+}
+.link-button{
+    margin-top: 16px;
+    padding: 10px 24px;
+    border: none;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.fa-arrow-right{
+    padding-left: 8px;
+}
+#top-button{
+    border-radius: 24px;
+}
+.top-images{
+    position: relative;
+}
+#main-camera{
+    position: absolute;
+    width: 440px;
+    right: 33px;
+    top: 30px;
+}
+#circle-svg{
+    position: absolute;
+    width: 475px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
